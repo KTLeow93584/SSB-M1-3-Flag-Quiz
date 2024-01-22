@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#emojis {
+  font-size: 40px;
+}
+
+button {
+  background-color: #80A6ED;
+  color: white;
+  padding: 15px;
+  width: 350px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px 0px;
+}
