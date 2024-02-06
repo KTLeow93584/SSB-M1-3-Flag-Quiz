@@ -20,7 +20,8 @@ function startQuiz() {
   const answer = bufferKeys[randomIndex];
   const icon = quizBuffer[answer];
 
-  console.log("Buffer: " + Object.keys(quizBuffer) + ", Length: " + quizBuffer.length + ", Random: " + Math.random());
+  // Debug
+  console.log("Buffer: " + Object.keys(quizBuffer) + ", Random Index Result: " + randomIndex);
   console.log("Index: " + randomIndex + ", Answer: " + answer + ", Icon: " + icon);
   
   const guess = prompt(`What does this ${icon} stand for?`);
