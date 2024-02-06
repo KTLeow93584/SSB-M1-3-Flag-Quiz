@@ -26,7 +26,7 @@ function startQuiz() {
   
   const guess = prompt(`What does this ${icon} stand for?`);
 
-  if (guess.toLowerCase() === answer.toLowerCase())
+  if (guess !== null && guess.toLowerCase() === answer.toLowerCase())
     alert("You've guessed correctly!");
   else
     alert(`Sorry, the correct answer was ${answer.slice(0, 1).toUpperCase() + answer.substring(1)}.`);
