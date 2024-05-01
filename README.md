@@ -1,8 +1,6 @@
 ## Sigma School Module 1 - Quiz Project
 
 ## Languages
-
-
 [![HTML5](https://img.shields.io/badge/Language-HTML5-brightgreen.svg?style=flat)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![Native Javascript](https://img.shields.io/badge/Language-Native%20JavaScript-brightgreen.svg?style=flat)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Native CSS](https://img.shields.io/badge/Language-Native%20CSS-brightgreen.svg?style=flat)](https://developer.mozilla.org/en-US/docs/Web/CSS)
